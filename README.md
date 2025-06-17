@@ -1,10 +1,10 @@
-# 🚗 Parking System Indicator on FPGA using Verilog HDL
+#  Parking System Indicator on FPGA using Verilog HDL
 
 This project implements a **Smart Parking Management System** using an FPGA board and Verilog HDL. It displays real-time availability of parking slots using LEDs and 7-segment displays, providing a reliable and interactive parking solution.
 
 ---
 
-## 📌 Objective
+##  Objective
 
 To design and implement a real-time **Parking System Indicator** that:
 - Detects vehicle presence using sensors
@@ -13,7 +13,7 @@ To design and implement a real-time **Parking System Indicator** that:
 
 ---
 
-## 📐 System Overview
+##  System Overview
 
 - **FPGA Board:** Nexys 4 DDR (100 MHz clock)
 - **Vehicle Detection Sensors:** Compatible IR/ultrasonic sensors
@@ -21,7 +21,7 @@ To design and implement a real-time **Parking System Indicator** that:
 
 ---
 
-## 🔧 Modules Implemented
+##  Modules Implemented
 
 ### 1. `slowclock_100Hz.v`
 Generates a slow 100 Hz clock from 100 MHz input.
@@ -37,14 +37,14 @@ Main module integrating:
 
 ---
 
-## 🧠 Display Logic
+##  Display Logic
 
 - If all slots are filled → display `FULL`
 - If at least one slot is available → display `OPEN`
 
 ---
 
-## 🛠️ Future Scope
+##  Future Scope
 
 - Integration with IoT for remote monitoring
 - Mobile app interface for real-time parking updates
@@ -52,7 +52,7 @@ Main module integrating:
 
 ---
 
-## 🌍 Impact
+##  Impact
 
 - Reduces time spent searching for parking
 - Decreases city congestion
@@ -60,14 +60,6 @@ Main module integrating:
 
 ---
 
-## 👨‍💻 Contributors (Group 7)
-
-- Dhruv Agarwal (220906522)
-- Anish Kumar (220906526)
-- Arya Singh (220906530)
-- Prithav Sinha (220906532)
-
----
 
 ## 📚 References
 
